@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          h1 {color:rgb(73, 69, 69);align-items: center;}
+          h2 {color:blue; align-content: center;}
+          txt {color:blue;}
+        </style>
+        </head>
+<body>
+
+<h1>Wörter-Klinik</h1>
+<h2>Alle zehn Sekunden erscheint ein neues Wort zum Thema "Waldtiere":</h2>
+
+
+<input type="text" id="txt">
+
+<script>
+let x = document.getElementById("txt");
+setTimeout(function(){ x.value="Bär" }, 2000);
+setTimeout(function(){ x.value="Fuchs" }, 12000);
+setTimeout(function(){ x.value="Adler" }, 22000);
+setTimeout(function(){ x.value="Reh" }, 32000);
+setTimeout(function(){ x.value="Eule" }, 42000);
+setTimeout(function(){ x.value="Maulwurf" }, 52000);
+</script>
+
+</body>
+</html>
