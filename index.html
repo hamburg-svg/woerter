@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" type="text/css" href="assets/css/mains.css">    
     <head>
         <style>
-          h1 {color:rgb(73, 69, 69);align-items: center;}
+          h1 {color:rgb(73, 69, 69); align-items: center;}
           h2 {color:blue; align-content: center;}
           txt {color:blue;}
         </style>
         </head>
-<body>
+<body style="text-align:center">
 
-<h1>Wörter-Klinik</h1>
-<h2>Alle zehn Sekunden erscheint ein neues Wort zum Thema "Waldtiere":</h2>
+<h1>Wörterklinik</h1>
+<h2>Alle zwei Sekunden erscheint ein neues Wort zum Thema "Waldtiere" (zwei Sekunden Pause):</h2>
 
 
+<div></div>
+<div></div>
+<div></div>
 <input type="text" id="txt">
-
-<script>
+<center>
+<script >
 let x = document.getElementById("txt");
 setTimeout(function(){ x.value="Bär" }, 2000);
-setTimeout(function(){ x.value="Fuchs" }, 12000);
-setTimeout(function(){ x.value="Adler" }, 22000);
-setTimeout(function(){ x.value="Reh" }, 32000);
-setTimeout(function(){ x.value="Eule" }, 42000);
-setTimeout(function(){ x.value="Maulwurf" }, 52000);
-</script>
+setTimeout(function(){ x.value="" }, 4000);
+setTimeout(function(){ x.value="Fuchs" }, 6000);
+setTimeout(function(){ x.value="" }, 8000);
+setTimeout(function(){ x.value="Adler" }, 10000);
+setTimeout(function(){ x.value="" }, 12000);
+setTimeout(function(){ x.value="Reh" }, 14000);
+setTimeout(function(){ x.value="" }, 16000);
+setTimeout(function(){ x.value="Eule" }, 18000);
+setTimeout(function(){ x.value="" }, 20000);
+setTimeout(function(){ x.value="Maulwurf" }, 22000);
+setTimeout(function(){ x.value="Ende -> Tab-Refresh für Neustart." }, 20000);
 
+</script>
+</center>
 </body>
 </html>
