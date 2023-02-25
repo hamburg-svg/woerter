@@ -8,7 +8,7 @@
 
     <head>
         <style>
-        
+        text {width: 800px;}
           h1 {color:rgb(73, 69, 69); align-items: center;}
           h2 {color:blue; align-content: center;}
           txt {color:blue;}
@@ -17,7 +17,7 @@
 <body style="text-align:center">
 
 <h1>Wörterklinik</h1>
-<h2>Alle zwei Sekunden erscheint ein neues Wort zum Thema "Waldtiere" (zwei Sekunden Pause):</h2>
+<!--Alle zwei Sekunden erscheint ein neues Wort (zwei Sekunden Pause):-->
 
 
 <div></div>
@@ -26,21 +26,29 @@
 <input type="text" id="txt">
 <script >
 let x = document.getElementById("txt");
-setTimeout(function(){ x.value="Bär" }, 2000);
-setTimeout(function(){ x.value="" }, 4000);
-setTimeout(function(){ x.value="Fuchs" }, 6000);
-setTimeout(function(){ x.value="" }, 8000);
-setTimeout(function(){ x.value="Adler" }, 10000);
-setTimeout(function(){ x.value="" }, 12000);
-setTimeout(function(){ x.value="Reh" }, 14000);
-setTimeout(function(){ x.value="" }, 16000);
-setTimeout(function(){ x.value="Eule" }, 18000);
-setTimeout(function(){ x.value="" }, 20000);
-setTimeout(function(){ x.value="Maulwurf" }, 22000);
-setTimeout(function(){ x.value="Ende" }, 24000);
+setTimeout(function(){ x.value="alles" }, 1000);
+setTimeout(function(){ x.value="" }, 2150);
+setTimeout(function(){ x.value="fand" }, 32150);
+setTimeout(function(){ x.value="" }, 33300);
+setTimeout(function(){ x.value="Bretter" }, 63300);
+setTimeout(function(){ x.value="" }, 64450);
+setTimeout(function(){ x.value="Kasten" }, 94450);
+setTimeout(function(){ x.value="" }, 95600);
+setTimeout(function(){ x.value="Treffer" }, 125600);
+setTimeout(function(){ x.value="" }, 126750);
+setTimeout(function(){ x.value="gab" }, 156750);
+setTimeout(function(){ x.value="" }, 157900);
+setTimeout(function(){ x.value="rechne" }, 187900);
+setTimeout(function(){ x.value="" }, 189050);
+setTimeout(function(){ x.value="multipliziere" }, 219050);
+setTimeout(function(){ x.value="" }, 220200);
+setTimeout(function(){ x.value="vielleicht" }, 250200);
+setTimeout(function(){ x.value="" }, 251350);
+setTimeout(function(){ x.value="Flaschenhals" }, 281350);
+setTimeout(function(){ x.value="Ende" }, 311350);
 
 </script>
-<input type='text' id='input'placeholder="Schreib hier"/>
+<!-- <input type='text' id='input'placeholder="Schreib hier"/> -->
 
 </body>
 </html>

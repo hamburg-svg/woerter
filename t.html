@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <p style="background-image: url('img_girl.jpg');">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="main.css">    
+    <script defer src="main.js"></script>
+
+    <head>
+        <style>
+        
+          h1 {color:rgb(73, 69, 69); align-items: center;}
+          h2 {color:blue; align-content: center;}
+          txt {color:blue;}
+        </style>
+        </head>
+<body style="text-align:center">
+
+<h1>Wörterklinik</h1>
+<h2>Alle zwei Sekunden erscheint ein neues Wort zum Thema "Waldtiere" (zwei Sekunden Pause):</h2>
+
+
+<div></div>
+<div></div>
+<div></div>
+<input type="text" id="txt">
+<script >
+let x = document.getElementById("txt");
+setTimeout(function(){ x.value="Bär" }, 2000);
+setTimeout(function(){ x.value="" }, 4000);
+setTimeout(function(){ x.value="Fuchs" }, 6000);
+setTimeout(function(){ x.value="" }, 8000);
+setTimeout(function(){ x.value="Adler" }, 10000);
+setTimeout(function(){ x.value="" }, 12000);
+setTimeout(function(){ x.value="Reh" }, 14000);
+setTimeout(function(){ x.value="" }, 16000);
+setTimeout(function(){ x.value="Eule" }, 18000);
+setTimeout(function(){ x.value="" }, 20000);
+setTimeout(function(){ x.value="Maulwurf" }, 22000);
+setTimeout(function(){ x.value="Ende" }, 24000);
+
+</script>
+<input type='text' id='input'placeholder="Schreib hier"/>
+
+</body>
+</html>
